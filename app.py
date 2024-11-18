@@ -24,5 +24,8 @@ ax.set_xlabel('x')
 ax.set_ylabel('y')
 ax.set_title('A Simple Scatterplot')
 
+# Add a bad line to test code quality tool
+undefined_variable = this_variable_does_not_exist
+
 # Display the plot
 st.pyplot(fig)
